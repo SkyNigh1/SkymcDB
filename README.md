@@ -4,7 +4,7 @@
 
 ## 📦 Download
 
-📥 Download link: https://www.skynightbuilds.com/skymcdb
+📥 Download link: https://www.skynightbuilds.com/SkymcDB
 
 ---
 
