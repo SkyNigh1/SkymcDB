@@ -1,6 +1,6 @@
-# SKYMCDB
+<h1 align="center">SKYMCDB</h1>
+<p align="center"><em>Transform Colors into Creative Masterpieces Effortlessly</em></p>
 
-*Transform Colors into Creative Masterpieces Effortlessly*
 
 ![Last Commit](https://img.shields.io/badge/last%20commit-today-brightgreen?style=flat-square)
 ![Java](https://img.shields.io/badge/java-99%25-blue?style=flat-square)
