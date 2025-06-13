@@ -1,84 +1,128 @@
-# SkymcDB
+# SKYMCDB
 
-**SkymcDB** is a tool designed for Minecraft builders, focused on generating block gradients, converting colors to blocks, creating pixel art, and generating Perlin noise-based patterns. It offers real-time previews, color-accurate results, and a modern interface.
+*Transform Colors into Creative Masterpieces Effortlessly*
+
+![Last Commit](https://img.shields.io/badge/last%20commit-today-brightgreen?style=flat-square)
+![Java](https://img.shields.io/badge/java-99%25-blue?style=flat-square)
+![Languages](https://img.shields.io/badge/languages-3-informational?style=flat-square)
+
+> Built with the tools and technologies: `Java`, `JavaFX`, `Markdown`
+
+---
+
+## 📚 Table of Contents
+- [Overview](#overview)
+- [Download](#-download)
+- [Features](#-features)
+  - 🎨 [Color to Block](#-color-to-block)
+  - 🌈 [Block Gradient Generator](#-block-gradient-generator)
+  - 🖼️ [Pixel Art Generator](#-pixel-art-generator)
+  - 🌀 [Pattern and Noise Generator](#-pattern-and-noise-generator)
+- [Interface](#interface)
+- [Note](#note)
+- [Future Plans](#future-plans)
+
+---
+
+## Overview
+
+**SkymcDB** is a tool tailored for **Minecraft builders**. It specializes in:
+- color-to-block mapping,
+- generating gradients (linear & bilinear),
+- converting images into pixel art,
+- and producing block-based visual patterns using procedural noise.
+
+Its purpose is to **assist artistic construction** with real-time feedback, intuitive controls, and accurate color matching.
+
+---
 
 ## 📦 Download
 
-📥 Download link: https://www.skynightbuilds.com/skymcdb
+📥 [Download SkymcDB here](https://www.skynightbuilds.com/skymcdb)
+
+> No Maven, no setup — just download and launch!
 
 ---
 
 ## ✨ Features
 
-### 🎨 Block Gradient Generator
+### 🎨 Color to Block
 
-Create smooth block gradients based on the average colors of block textures.
+> Match any RGB color to the closest Minecraft block, using the **average texture color** of blocks.
 
-- Choose two blocks (from `top/` or `side/` textures)
-- Select a distance (from 1 to 32 blocks)
-- The algorithm interpolates colors and selects the closest matching blocks at each step
-- Real-time preview of the generated gradient
+- Choose a color using a chromatic circle
+- Decide whether to match based on `top/` or `side/` block textures
+- Instantly get a real block preview
 
-> Ideal for creating seamless material transitions in your builds.
-
----
-
-### 🧱 Color to Block Converter
-
-Turn any color into the best matching Minecraft block.
-
-- Choose a color using chromatic circle
-- Select whether to match using `top/` or `side/` textures
-- Instantly preview the closest matching block
-
-> Great for stylized designs, palettes, or thematic builds.
+> 🎨 **Conversion couleur → bloc**  
+Facilite la création de palettes ou de compositions thématiques, avec une cohérence visuelle garantie.
 
 ---
 
-### 🖼️ Image to Pixel Art Converter
+### 🌈 Block Gradient Generator
 
-Convert any image into a Minecraft block-based pixel art with accurate color matching.
+Generate **smooth block gradients** using color interpolation.
 
-- Upload an image of your choice
-- Set the desired height (up to **512 blocks**)
-- Select the texture perspective (`top/` or `side/`)
-- Get a real-time preview of the pixel art built from real Minecraft blocks
+- **Linear** gradient: between two blocks
+- **Bilinear** gradient: between four blocks (forming a square)
+- Distance customization (1–32 blocks)
+- Accurate color-to-block matching at each step
 
-> Perfect for murals, logos, or detailed wall art.
+> 🌈 **Génération de dégradés**  
+Deux types : linéaire (1D) et bilinéaire (2D) pour des transitions riches et naturelles entre matériaux.
 
 ---
 
-### 🌌 Perlin Noise Gradient Generator
+### 🖼️ Pixel Art Generator
 
-Generate natural-looking noise-based patterns with a configurable gradient of blocks.
+Convert any image into Minecraft pixel art.
 
-- Define the gradient (start block, end block, number of steps)
-- SkymcDB interpolates the gradient and maps it onto the noise
-- Live preview of the resulting pattern
+- Supports images up to **512 blocks high** (8192 px)
+- Choose `top/` or `side/` texture matching
+- Real-time block preview
+- Export as **PNG**
 
-> Useful for terrain detailing, procedural landscapes, or organic patterns.
+> 🖼️ **Générateur de pixel art**  
+Génère un pixel art fidèle basé sur les blocs Minecraft avec palette optimisée automatiquement.
+
+---
+
+### 🌀 Pattern and Noise Generator
+
+Create **procedural textures** using configurable noise.
+
+- Supported types: `Perlin`, `Voronoi`, `Cellular`, and dynamic forms (e.g. spirals)
+- Gradient mapping on noise
+- Real-time preview of the result
+
+> 🌀 **Création de motifs visuels**  
+Parfait pour terrains, effets naturels, ou décors stylisés.
 
 ---
 
 ## 🖥️ Interface
 
-SkymcDB features a modern UI inspired by Discord's aesthetic, with intuitive panels and visual tools:
-- Circular color picker like Blender's
-- Real-time visualization
-- Clean, dark-themed layout
+A modern interface inspired by **Discord**, with intuitive tools and visuals:
+
+- Circular color picker (like in Blender)
+- Real-time 2D visualization
+- Clean dark-themed layout
 
 ---
 
 ## 📌 Note
 
-SkymcDB is not intended to handle 3D formats like `.schem` or complex in-game integration like FAWE masks. It focuses on **2D block logic**, **visual design**, and **tool-assisted building**.
+SkymcDB does **not** support 3D exports like `.schem`, or complex in-game integrations (e.g. FAWE masks).  
+It focuses purely on **2D visual design** and **tool-assisted building**.
 
 ---
 
 ## 🚀 Future Plans
 
-- Expanded noise configuration
-- Additionnal features
+- Enhanced noise customization
+- Additional block palette options
+- More export formats
+
 ---
 
-Made for builders, real artists.
+Made for builders. Made for artists.
