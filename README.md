@@ -6,7 +6,7 @@
 ![Java](https://img.shields.io/badge/java-99%25-blue?style=flat-square)
 ![Languages](https://img.shields.io/badge/languages-3-informational?style=flat-square)
 
-> Built with the tools and technologies: `Java`, `JavaFX`, `Markdown`
+> Built with the tools and technologies: `Java`, `JavaFX`
 
 ---
 
@@ -54,8 +54,6 @@ Its purpose is to **assist artistic construction** with real-time feedback, intu
 - Decide whether to match based on `top/` or `side/` block textures
 - Instantly get a real block preview
 
-> 🎨 **Conversion couleur → bloc**  
-Facilite la création de palettes ou de compositions thématiques, avec une cohérence visuelle garantie.
 
 ---
 
@@ -68,8 +66,6 @@ Generate **smooth block gradients** using color interpolation.
 - Distance customization (1–32 blocks)
 - Accurate color-to-block matching at each step
 
-> 🌈 **Génération de dégradés**  
-Deux types : linéaire (1D) et bilinéaire (2D) pour des transitions riches et naturelles entre matériaux.
 
 ---
 
@@ -82,9 +78,6 @@ Convert any image into Minecraft pixel art.
 - Real-time block preview
 - Export as **PNG**
 
-> 🖼️ **Générateur de pixel art**  
-Génère un pixel art fidèle basé sur les blocs Minecraft avec palette optimisée automatiquement.
-
 ---
 
 ### 🌀 Pattern and Noise Generator
@@ -95,17 +88,14 @@ Create **procedural textures** using configurable noise.
 - Gradient mapping on noise
 - Real-time preview of the result
 
-> 🌀 **Création de motifs visuels**  
-Parfait pour terrains, effets naturels, ou décors stylisés.
 
 ---
 
 ## 🖥️ Interface
 
-A modern interface inspired by **Discord**, with intuitive tools and visuals:
+A modern interface, with intuitive tools and visuals:
 
-- Circular color picker (like in Blender)
-- Real-time 2D visualization
+- Circular color picker
 - Clean dark-themed layout
 
 ---
